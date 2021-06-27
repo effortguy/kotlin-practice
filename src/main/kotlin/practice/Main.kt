@@ -1,7 +1,7 @@
 package practice
 
-import practice.Color.*
+import practice.strings.lastChar as last
 
 fun main(args: Array<String>) {
-    println(eval(Sum(Sum(Num(1), Num(2)), Num(4))))
+    println("Kotlin".last())
 }
