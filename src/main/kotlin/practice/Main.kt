@@ -1,7 +1,9 @@
 package practice
 
-import practice.strings.lastChar as last
+import practice.strings.lastChar
 
 fun main(args: Array<String>) {
-    println("Kotlin".last())
+    val list = listOf("asdasd", *args);
+
+    println(list)
 }
