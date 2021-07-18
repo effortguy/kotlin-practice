@@ -2,5 +2,7 @@ package practice
 
 
 fun main(args: Array<String>) {
-    StringPrinter().process("asdasd")
+    val a: String? = null;
+
+    println(a?.equals("dd"))
 }
